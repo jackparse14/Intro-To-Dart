@@ -9,7 +9,7 @@ String fullName(
   String? firstName,
   String? lastName,
 ) =>
-    "${firstName.orDefault} ${lastName.orDefault}";
+    "${firstName.orDefault} ${lastName.orDefault}"; // template literals - evaluates inside the brackets and creates a fullname string
 
 extension Defaultvalues<T> on T? {
   T get orDefault {
@@ -29,5 +29,5 @@ extension Defaultvalues<T> on T? {
       default:
         throw Exception("No default value for type $T");
     }
-  }
+  } // if variable calling this function is null it provides a default value instead of null
 }
