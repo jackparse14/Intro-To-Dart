@@ -7,5 +7,4 @@ void main(List<String> args) {
   for (final name in upperCaseNames.take(3)) {
     print(name);
   }
-  ;
 }
