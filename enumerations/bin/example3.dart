@@ -6,7 +6,7 @@ void main(List<String> args) {
       print('this is a cat');
       break;
 
-    // try to prevent default cases
+    // try to prevent using default cases as it doesn't give out warnings on new cases
     default:
       print('this is not a cat');
   }
