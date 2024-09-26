@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  final person1 = Person(
+  const person1 = Person(
     name: 'John',
     age: 20,
   );
@@ -11,7 +11,7 @@ class Person {
   final String name;
   final int age;
 
-  Person({
+  const Person({
     required this.name,
     required this.age,
   });
