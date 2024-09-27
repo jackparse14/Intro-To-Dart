@@ -14,6 +14,7 @@ class Human extends Has2Feet with CanRun {
   const Human();
 }
 
+// we cant add CanRun to this class
 class Fish extends HasNoFeet {
   const Fish();
 }
